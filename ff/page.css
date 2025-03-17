@@ -1,5 +1,5 @@
 .iFrame_1 {
-  width: 560px; /* عرض برای دسکتاپ */
+  width: 50%; /* 50% عرض صفحه برای دسکتاپ */
   height: 690px; /* ارتفاع برای دسکتاپ */
   border: none;
   border-radius: 10px; /* گوشه‌های گرد */
@@ -13,23 +13,25 @@
 /* برای تبلت‌ها */
 @media (max-width: 768px) {
   .iFrame_1 {
-    width: 95%;
+    width: 75%;
     height: 600px;
   }
 }
 
-/* برای موبایل‌های متوسط */
+/* برای موبایل‌های متوسط - شامل شیائومی نوت 11S */
 @media (max-width: 576px) {
   .iFrame_1 {
-    width: 95%;
-    height: 500px;
+    width: 90%; /* 90% عرض صفحه برای موبایل شیائومی */
+    height: 80vh; /* 80% ارتفاع viewport برای نمایش بهتر */
+    min-height: 500px; /* حداقل ارتفاع */
   }
 }
 
 /* برای موبایل‌های کوچک */
 @media (max-width: 375px) {
   .iFrame_1 {
-    width: 95%;
-    height: 450px;
+    width: 90%;
+    height: 75vh;
+    min-height: 450px;
   }
 }
