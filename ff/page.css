@@ -1,0 +1,35 @@
+.iFrame_1 {
+  width: 560px; /* عرض برای دسکتاپ */
+  height: 690px; /* ارتفاع برای دسکتاپ */
+  border: none;
+  border-radius: 10px; /* گوشه‌های گرد */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* سایه */
+  overflow: hidden;
+  display: block;
+  margin: 0 auto; /* مرکز قرار دادن iframe */
+  max-width: 100%; /* اطمینان از عدم سرریز در صفحات کوچک */
+}
+
+/* برای تبلت‌ها */
+@media (max-width: 768px) {
+  .iFrame_1 {
+    width: 95%;
+    height: 600px;
+  }
+}
+
+/* برای موبایل‌های متوسط */
+@media (max-width: 576px) {
+  .iFrame_1 {
+    width: 95%;
+    height: 500px;
+  }
+}
+
+/* برای موبایل‌های کوچک */
+@media (max-width: 375px) {
+  .iFrame_1 {
+    width: 95%;
+    height: 450px;
+  }
+}
